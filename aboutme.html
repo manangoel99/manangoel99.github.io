@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		About Manan
+	</title>
+	<link rel="stylesheet" type="text/css" href="aboutmestyle.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://use.fontawesome.com/4275ee8047.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="preload.js"></script>
+</head>
+<body onload="showPage()" style="margin: 0;">
+	<div class="extra">Sorry Page opens only above 960px</div>
+
+	<div id="backg"></div>
+	<div id="loader"></div>
+	<div class="backimg1 backimg" id="backimg-1">
+		<div class="navbar">
+			<a href="index.html">Home</a>
+			<a href="aboutme.html">About Me</a>
+			<a href="contactme.html">Contact Me</a>
+			<a href="canvas.html">Canvas</a>
+			
+		</div>
+		<div class="main-text">
+			<div id="first-line">Hi I'm Manan</div>
+			<div id="photog">Photographer</div>
+			<div id="read">Reader</div>
+			<div id="Gamer">Gamer</div>
+			<div id="pesky">Pesky</div>
+			<div id="adventure">Adventurous</div>
+			<div id="weird">Weirdo</div>
+			<div id="pers">Persistant</div>
+			<div id="ecc">Eccentric</div>
+		</div>
+	</div>
+	<section class="wrapperstyle backimg" id="one">
+		<div class="navbar">
+			<a href="index.html">Home</a>
+			<a href="aboutme.html">About Me</a>
+			<a href="contactme.html">Contact Me</a>
+			<a href="canvas.html">Canvas</a>
+			
+		</div>
+		<div class="inner">
+			<span class="laboutme">
+				<header>
+					<p class="about">About Me</p>
+				</header>
+				<p class="info">
+					Hola Folks!
+					<br> I'm an Undergrad at IIIT Hyderabad,
+					<br> pursuing my Bachelors in Computer Science
+					<br> I Hail from a town in Haryana called Karnal
+					<br> I completed my schooling from St. Theresa's Convent School
+					<br> before joining IIIT
+					<br>
+				</p>
+			</span>
+		</div>
+	</section>
+	<div class="backimg2 backimg">
+		<!--p style="color: white; font-size: 2vw; background-color:transparent;">A Few of The Pictures that I've taken</p>-->
+		<div class="carousel">
+			<div class="image fade">
+					<img src="1.JPG" alt="Image 1">
+			</div>
+			<div class="image fade">
+					<img src="2.JPG" alt="Image 2">
+			</div>
+			<div class="image fade">
+					<img src="3.JPG" alt="Image 3">
+			</div>
+			<div class="image fade">		
+					<img src="4.JPG" alt="Image 4">
+			</div>
+			<div class="image fade">
+					<img src="5.JPG" alt="Image 5">
+			</div>
+			<div class="image fade">
+					<img src="6.JPG" alt="Image 6">		
+			</div>
+			<!--<div class="image fade">
+					<img src="7.JPG" alt="Image 7">		
+			</div>-->
+			<div class="image fade">
+					<img src="8.JPG" alt="Image 8">		
+			</div>
+			<!--<div class="image fade" style="transform: rotate(deg90);">
+					<img src="9.JPG" alt="Image 9">		
+			</div>-->
+			<div class="image fade">
+					<img src="10.JPG" alt="Image 10">		
+			</div>
+			<div class="image fade">
+					<img src="11.JPG" alt="Image 11">		
+			</div>
+			<a class="prev" onclick="nextimage(-1)">Previous</a>
+			<a class="next" onclick="nextimage(1)">Next</a>
+		</div>
+		<div class="text-extra">
+			<button id="remove" type="button" onclick="showback();"><h3>The Best is at the Back</h3></button>
+			<button id="display" type="button" onclick="getback();"><h3>Display Again</h3></button>
+			
+		</div>
+		<div class="navbar">
+				<a href="index.html">Home</a>
+				<a href="aboutme.html">About Me</a>
+				<a href="contactme.html">Contact Me</a>
+				<a href="canvas.html">Canvas</a>
+			</div>
+
+	</div>
+	<script src="aboutmejs.js"></script>
+</body>
+
+</html>	
